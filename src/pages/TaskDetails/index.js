@@ -145,7 +145,8 @@ const TaskDetails = () => {
         <div className="action-container">
             <div className="header-row">
                 <h4>
-                    Mis Acciones
+                    { params ? (params.symbol + ' - '+ params.name + ' - ' + params.currency ) : ''
+                    }
                 </h4>
                 <div className="header-row-logout" >
                     <h4>Usuario: {user ? user.username : ''}</h4>

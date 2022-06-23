@@ -9,6 +9,6 @@ npm install
 
 con la siguiente información:
 
-REACT_APP_SERVER_URL=http://127.0.0.1:3005
+REACT_APP_SERVER_URL=http://127.0.0.1:3002
 
 npm start 
